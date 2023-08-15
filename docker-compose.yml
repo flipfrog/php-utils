@@ -1,0 +1,9 @@
+version: '2'
+services:
+  console:
+    build: ./docker/console
+    image: php-utils-console
+    volumes:
+      - .:/opt/src
+    working_dir: /opt/src
+
