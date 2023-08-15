@@ -3,9 +3,7 @@
 namespace Unit;
 
 use Tests\Support\UnitTester;
-use utils\ArrayUtil;
-
-require_once 'app/ArrayUtil.php';
+use flipfrog\utils\ArrayUtil;
 
 class ArrayUtilTest extends \Codeception\Test\Unit
 {

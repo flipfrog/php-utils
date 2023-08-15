@@ -1,4 +1,9 @@
 {
+    "autoload": {
+        "psr-4": {
+            "flipfrog\\utils\\": "utils/"
+        }
+    },
     "require-dev": {
         "codeception/codeception": "^5.0",
         "codeception/module-phpbrowser": "*",
